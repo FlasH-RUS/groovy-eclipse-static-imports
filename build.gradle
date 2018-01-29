@@ -1,0 +1,21 @@
+buildscript {
+    repositories { mavenCentral() }
+}
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'eclipse'
+apply plugin: 'groovy'
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.7'
+}
+
+eclipse {
+    project {
+        /* Add Gradle nature to all projects so that Buildship can work with them out of the box */
+        natures 'org.eclipse.buildship.core.gradleprojectnature'
+    }
+}

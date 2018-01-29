@@ -1,0 +1,14 @@
+# Eclipse IDE
+.project
+.classpath
+.springBeans
+.settings/
+bin/
+
+# Gradle
+gradle-app.setting
+.gradle/
+build/
+
+# Others
+.DS_Store

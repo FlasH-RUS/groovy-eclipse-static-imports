@@ -1,0 +1,9 @@
+# set default behaviour, in case users don't have core.autocrlf set.
+text=auto
+
+# BAT scripts with Windows line endings
+*.bat text eol=crlf
+
+# Gradle Wrapper files must always have correct line endings
+gradlew.bat text eol=crlf
+gradlew     text eol=lf
